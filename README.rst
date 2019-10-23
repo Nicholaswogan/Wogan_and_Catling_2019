@@ -56,7 +56,7 @@ This calculates the atomsphere-ocean chemical disequilibrium, in terms of avalia
 
 For this calculation we use an open-source Gibbs minimzation code that was produced and described by Krissansen-Totton et al. 2016 (link). The source code can be downloaded at http://www.krisstott.com/publications.html .
 
-Note: The atmosphere-ocean gibbs minimization is a optimization problem that has multiple local minima. The code tries to find a global minimum by attempting the minimization from many different random starting points. The number of attempted minimization can be changed in the file "Gibbs_minimization/Main_script_iterate.m". More iterations will ensure a global minimum is found, although it will also slow down the calculation. I have had good luck with ~30 iterations, although, if the plots produced in the final step (step 4) do not look smooth, then you should re-run volc_gibbs.py with more iterations.
+Note: The atmosphere-ocean gibbs minimization is a optimization problem that has multiple local minima. The code tries to find a global minimum by attempting the minimization from many different random starting points. The number of attempted minimizations can be changed in the file "Gibbs_minimization/Main_script_iterate.m". More iterations will ensure a global minimum is found, although it will also slow down the calculation. I have had good luck with ~30 iterations, although, if the plots produced in the final step (step 4) do not look smooth, then you should re-run volc_gibbs.py with more iterations.
 
 Approximate run-time is ~24 hours.
 
