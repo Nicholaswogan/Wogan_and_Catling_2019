@@ -73,6 +73,3 @@ To reproduce Figure 1 and 2 (with the exception of the atmosphere-only disequili
    python plot_figure2.py
    
 If you have questions, please contact me at wogan@uw.edu.
-
-External hyperlinks, like `Python
-<http://www.python.org/>`_.
